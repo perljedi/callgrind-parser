@@ -3,8 +3,6 @@ use warnings;
 use Test::Spec;
 use base qw(Test::Spec);
 use Test::Exception;
-use Time::HiRes qw(gettimeofday tv_interval);
-use lib qw(/home/dave/Callgrind-Parser/lib);
 use Callgrind::Parser;
 
 describe "Callgrind::Parser" => sub{
